@@ -15,12 +15,13 @@ function TodoInput() {
   return (
     <form onSubmit={handleSubmit}>
       <input
+      className="name_input"
         type="text"
         placeholder="Note"
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
-      <button type="submit">+</button>
+      <button className="submit_btn" type="submit">+</button>
     </form>
   );
 }

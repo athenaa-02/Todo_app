@@ -1,17 +1,17 @@
-import './App.css'
-import Header from './components/Header'
-import TodoInput from './components/TodoInput'
-import TodoList from './components/TodoList'
-import TodoItem from './components/TodoItem'
+import "./App.css";
+import Header from "./components/Header";
+import TodoInput from "./components/TodoInput";
+import TodoList from "./components/TodoList";
 
 function App() {
-return (
-    <div className="App">
+  return (
+    <div className="app">
       <Header />
+
       <TodoInput />
-      <TodoList />
+      <TodoList></TodoList>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

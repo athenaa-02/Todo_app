@@ -6,10 +6,15 @@ function TodoItem({ todo }) {
   const dispatch = useDispatch();
 
   return (
-    <div style={{ width: "50px" }}>
+    <div className="parent">
+      <div className="text_wrapper">
+      <div className="todo_name">{todo.text}</div>
+      <span>time</span>
+      </div>
+      <div className="btn_wrapper">
       <input type="checkbox" />
-      <span>{todo.text}</span>
       <button onClick={() => dispatch(deleteTodo(todo.id))}>delete</button>
+    </div>
     </div>
   );
 }
