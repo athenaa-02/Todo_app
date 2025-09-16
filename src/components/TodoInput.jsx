@@ -20,7 +20,7 @@ function TodoInput() {
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
-      <button type="submit"></button>
+      <button type="submit">+</button>
     </form>
   );
 }
