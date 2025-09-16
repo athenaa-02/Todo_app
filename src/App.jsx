@@ -10,7 +10,6 @@ return (
       <Header />
       <TodoInput />
       <TodoList />
-      <TodoItem />
     </div>
   )
 }
