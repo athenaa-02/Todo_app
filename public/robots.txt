@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /admin
+
+Sitemap: https://todo-app-vert-two-28.vercel.app/sitemap.xml
